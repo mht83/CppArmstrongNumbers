@@ -13,7 +13,7 @@ bool check_armstrong(int a) {
 
 int main()
 {
-    for (int i = 0; i < 1000; ++i)
+    for (int i = 100; i < 1000; ++i)
     {
 
         if (check_armstrong(i)) {
